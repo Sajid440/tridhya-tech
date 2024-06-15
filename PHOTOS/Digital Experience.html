@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="tridhyatech.css">
+    <link rel="stylesheet" href="Digital Experience.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <div class="container-fluid">
+
+            <a class="navbar-brand me-auto" aria-label="Tridhya Tech Home"> <img class="dark-logo"
+                    src="https://www.tridhyatech.com/frontend/img/logo.svg" alt="Logo" width="220" height="40"></a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Services<i class=" fa-solid fa-caret-down"></i>
+                                <div class="menu-service-block-sec">
+                                    <ul class="services-menu">
+                                        <li>
+                                            <div class="industries-blocks"> <a class=""
+                                                    href="Digital Experience.html">
+                                                    <h5 style="margin-top:-30px ;">Digital Experience</h5>
+                                                </a>
+                                                <ul>
+                                                    <li> <a class=""
+                                                            href="#">B2B/B2C
+                                                            Portals</a> </li>
+                                                    <li> <a class=""
+                                                            href="#">Mobile
+                                                            Application Development</a> </li>
+                                                    <li> <a class=""
+                                                            href="">eCommerce</a>
+                                                    </li>
+                                                    <li> <a class=""
+                                                            href="">UI/UX
+                                                            Design Services</a> </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="industries-blocks"> <a class=""
+                                                    href="">
+                                                    <h5>Cloud Services</h5>
+                                                </a>
+                                                <ul>
+                                                    <li> <a class=""
+                                                            href="">Cloud
+                                                            Migration</a> </li>
+                                                    <li> <a
+                                                            href="">Management
+                                                            and Support</a> </li>
+                                                    <li> <a
+                                                            href="">Cloud
+                                                            Optimization</a> </li>
+                                                    <li> <a
+                                                            href="">Cloud
+                                                            Security</a> </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="industries-blocks"> <a class=""
+                                                    href="">
+                                                    <h5>Data and Analytics</h5>
+                                                </a>
+                                                <ul>
+                                                    <li> <a class=""
+                                                            href="">Data
+                                                            Engineering</a> </li>
+                                                    <li> <a class=""
+                                                            href="">Data
+                                                            Visualization</a> </li>
+                                                    <li> <a class=""
+                                                            href="">Data
+                                                            Driven Decisions</a> </li>
+                                                    <li> <a class=""
+                                                            href="">Data
+                                                            Driven AI/ML</a> </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="industries-blocks"> <a class=""
+                                                    href="">
+                                                    <h5>Digital Enterprise</h5>
+                                                </a>
+                                                <ul>
+                                                    <li><a class=""
+                                                            href="">Application
+                                                            Services</a></li>
+                                                    <li><a class=""
+                                                            href="">Business
+                                                            Process Automation</a></li>
+                                                    <li><a class=""
+                                                            href="">Modern
+                                                            Workplace</a></li>
+                                                    <li><a class=""
+                                                            href="">Liferay
+                                                            DXP</a></li>
+                                                    <li><a class=""
+                                                            href="">MuleSoft
+                                                            Services</a></li>
+                                                    <li><a class=""
+                                                            href="">Alfresco</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="industries-blocks"> <a class=""
+                                                    href="">
+                                                    <h5>Engineering Services</h5>
+                                                </a>
+                                                <ul>
+                                                    <li> <a
+                                                            href="">Product
+                                                            Development</a> </li>
+                                                    <li> <a
+                                                            href="">DevOps/DevSecOps</a>
+                                                    </li>
+                                                    <li> <a
+                                                            href="">Integration
+                                                            Services</a> </li>
+                                                    <li> <a
+                                                            href="">Microservices
+                                                            &amp; API Development</a> </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Industries <i class="fa-solid fa-caret-down"></i>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li> <a class="" href="Retail Ecommerce.html">Retail
+                                                &amp; Ecommerce</a> </li>
+                                        <li> <a class=""
+                                                href="">Transport
+                                                and Logistics </a> </li>
+                                        <li> <a class="" href="">Real
+                                                Estate</a> </li>
+                                        <li> <a class="" href="">Insurance</a>
+                                        </li>
+                                    </ul>
+                                </div>    
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Who we are <i class="ps-2 fa-solid fa-caret-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Investors <i class="ps-2 fa-solid fa-caret-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Insights <i class="ps-2 fa-solid fa-caret-down"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cta-btn"> <a class="btn btn-primary " href="">Contact
+                    us</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div>
+        <div class="main-title-desc ">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">Home</li>
+                        <li class="breadcrumb-item active" aria-current="page">Digital Experience</li>
+                    </ol>
+                </nav>
+                <div class="main-title">
+                    <h1 title="Digital Experience Platform (DXP)">Digital Experience Platform (DXP)</h1>
+                    <p>Enhance Customer Relations with Intuitive DXPs - An Emerging Suite of Technologies for the
+                        Enterprises</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our-services-inner-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="services-more"> <a href="https://www.tridhyatech.com/digital-experience/b2b-b2c-portal">
+                            <img src="https://www.tridhyatech.com/frontend/img/icons/b2b.svg" alt="b2b" width="48"
+                                height="48">
+                            <h4>B2B/B2C Portal Development</h4>
+                            <p>Build engaging portals with your primary audience, B2B or B2C, in mind.</p>
+                        </a> </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="services-more"> <a
+                            href="https://www.tridhyatech.com/digital-experience/mobile-app-development"> <img
+                                src="https://www.tridhyatech.com/frontend/img/icons/mobile-application.svg"
+                                alt="mobile-application" width="48" height="48">
+                            <h4>Mobile Application Development</h4>
+                            <p>Leverage the preferred medium of your audience with mobile-centric solutions.</p>
+                        </a> </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="services-more"> <a
+                            href="https://www.tridhyatech.com/digital-experience/digital-commerce-services"> <img
+                                src="https://www.tridhyatech.com/frontend/img/icons/eCommerce.svg" alt="eCommerce"
+                                width="48" height="48">
+                            <h4>Digital Commerce Services</h4>
+                            <p>Gain and maintain the whole digital experience for your eCommerce customers.</p>
+                        </a> </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="services-more"> <a href="https://www.tridhyatech.com/digital-experience/ui-ux-design">
+                            <img src="https://www.tridhyatech.com/frontend/img/icons/ui-ux.svg" alt="ui-ux" width="48"
+                                height="48">
+                            <h4>UI/UX Design Services</h4>
+                            <p>Attract and retain more users with attractive UI/UX solutions.</p>
+                        </a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grow-business-inner-sec">
+        <div class="container">
+            <div class="row grow-bussiness-column-reverse">
+                <div class="col-12 col-md-7">
+                    <div class="grow-business-desc">
+                        <div class="inner-common-title-sec">
+                            <h2>Enterprise-Level Digital Experience Solutions Delivered</h2>
+                            <p>Take significant steps in the right direction toward your digital and customer experience
+                                goals with Tridhya Tech. We offer personalized and engaging digital experience services
+                                to
+                                help enterprises scale their digital experience and stay one step ahead of their
+                                competitors. Instead of a complete digital overhaul, choose to digitize specific
+                                business
+                                processes best suited for your business goals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="grow-business-acc"> <img src="digital-experience-platforms.webp" alt="Feature"
+                            title="Digital Experience Solutions"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grow-business-inner-sec grow-bussiness-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="grow-business-acc"> <img src="dxp.png" alt="Feature" title="Digital Experience"> </div>
+                </div>
+                <div class="col-12 col-md-6 inner-text-middle">
+                    <div class="grow-business-desc">
+                        <div class="inner-common-title-sec">
+                            <h2>Digital Experience Services</h2>
+                            <p class="pb-0">Retain and engage today's customers with personalized digital experiences.
+                                Transform your business operations and high-end marketing awareness across your
+                                customers,
+                                partners, and employees by seamlessly integrating advanced technologies through Digital
+                                Experience Platform (DXP).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="best-services-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="inner-common-title-sec">
+                        <h2>DXP – Delivering Data-Driver Digital Experience </h2>
+                        <p>Our proven expertise in enabling enterprises with customized, omnichannel DXP solutions
+                            assist
+                            them in operating, enhancing, and providing personalized experiences for different
+                            audiences. </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/encompass-multiple-industries.svg"
+                            alt="strategic-consulting" width="48" height="48">
+                        <h4>Encompass Multiple Industries</h4>
+                        <p>We create excelling digital experience platform for a wide range of industry segments like
+                            retail, manufacturing, eCommerce, distribution and automotive.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/dxp-architecture-omnichannel-experience.svg"
+                            alt="Customer Experience &amp; Design" width="48" height="48">
+                        <h4>DXP Architecture for an Omnichannel Experience </h4>
+                        <p>Our skilled DXP experts offer a detailed architecture through a compiled suite of products
+                            that
+                            assist enterprises in digitizing business operations, delivering augmented client experience
+                            and
+                            taking insightful business decisions.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/dxp-strategy-and-Implementation.svg"
+                            alt="Technology &amp; Engineering" width="48" height="48">
+                        <h4>DXP Strategy and Implementation</h4>
+                        <div class="feature-section featur-mb-0">
+                            <div class="feature-content">
+                                <ul>
+                                    <li> <a>Define business needs</a> </li>
+                                    <li> <a>Design a vigorous digital experience strategy</a> </li>
+                                    <li> <a>Analyse and select the ideal collaboration platform</a> </li>
+                                    <li> <a>Examine third-party integrations through API support</a> </li>
+                                    <li> <a>Ascertain and prepare for the extent of scalability</a> </li>
+                                    <li> <a>Regular platform upgrades for enhanced performance</a> </li>
+                                    <li> <a>During and postproduction customer support</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="best-services-sec best-service-pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="inner-common-title-sec">
+                        <h2>Enhanced Customer Experience </h2>
+                        <p>Bring in the finest of customer experience, which is the key driver for business growth.
+                            Offer an
+                            ultimate digital consumer experience through robust DXPs.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/integrate-varied-technologies.svg"
+                            alt="strategic-consulting" width="48" height="48">
+                        <h4>Integrate Varied Technologies</h4>
+                        <p>We integrate a set of technologies like CMS, eCommerce portals, data analytics, mobile apps,
+                            social and marketing, web portals and search, as a unified product that empowers the digital
+                            functioning of an organization.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/accrue-gains-maximize-revenue.svg"
+                            alt="Customer Experience &amp; Design" width="48" height="48">
+                        <h4>Accrue Gains and Maximize Revenue</h4>
+                        <p class="service-more-mb">Our digital experience platforms offer the following benefits to B2B,
+                            B2C, B2E organizations:</p>
+                        <div class="feature-section featur-mb-0">
+                            <div class="feature-content">
+                                <ul>
+                                    <li> <a>Insightful decision making</a> </li>
+                                    <li> <a>Enhanced customer personalization and journeys</a> </li>
+                                    <li> <a>Uniform consistency across channels</a> </li>
+                                    <li> <a>Centralized data competencies</a> </li>
+                                    <li> <a>Well-connected technology stack</a> </li>
+                                    <li> <a>Capability to adapt to newer technologies</a> </li>
+                                    <li> <a>Collect real-time information and client responses</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/assess-influencing-factors.svg"
+                            alt="Technology &amp; Engineering" width="48" height="48">
+                        <h4>Assess Influencing Factors</h4>
+                        <p class="service-more-mb">We study vital parameters before implementing DXP for your
+                            organization: </p>
+                        <div class="feature-section featur-mb-0">
+                            <div class="feature-content">
+                                <ul>
+                                    <li> <a>Mobile, web, social media digital channels</a> </li>
+                                    <li> <a>Higher customer expectations </a> </li>
+                                    <li> <a>Data insights offering high personalization</a> </li>
+                                    <li> <a>Digital impact on traditional practices</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grow-business-inner-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="grow-business-acc"> <img
+                            src="https://www.tridhyatech.com/frontend/img/dxp/dxp-platform.png" alt="Feature"
+                            title="Our DXP Solutions for B2B, B2C and B2E Businesses"> </div>
+                </div>
+                <div class="col-12 col-md-6 inner-text-middle">
+                    <div class="grow-business-desc">
+                        <div class="inner-common-title-sec inner-common-pb-0">
+                            <h2>Our DXP Solutions for B2B, B2C and B2E Businesses </h2>
+                            <p>Using our digital transformation experience, we offer various data experience platforms
+                                based
+                                on your business needs:</p>
+                            <p><strong>Digital consumers and digital worker's demand satisfies.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="best-services-sec best-service-pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/customer-portal.svg"
+                            alt="strategic-consulting" width="48" height="48">
+                        <h4>Customer Portal Development</h4>
+                        <p>A flexible, personalized solution meant to keep your customers satisfied and happy. Making
+                            optimal use of the digital experience portal to create an intuitive, self-service experience
+                            that can empower users to manage the portal without external dependency. A smooth and
+                            digitally
+                            enriched journey for your digital consumer.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/partner-portal.svg"
+                            alt="strategic-consulting" width="48" height="48">
+                        <h4>Partner Portal Development</h4>
+                        <p>A high-value, modern-day solution offering value for your partners. Leveraging the
+                            competencies
+                            of digital experience platforms to create partner portals with seamless user experience,
+                            advanced technology involvement and a transparent collaboration between your organization
+                            and
+                            your partners.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/digital-commerce.svg"
+                            alt="strategic-consulting" width="48" height="48">
+                        <h4>Digital Commerce Services</h4>
+                        <p>An eCommerce portal, enriched with features, substituting traditional procedures with
+                            modernized
+                            digital solutions in an integrated manner. Bringing in a contextual and collaborative
+                            digital
+                            commerce experience that can offer an edge over the rest with better business opportunities.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/intranets.svg"
+                            alt="strategic-consulting" width="48" height="48">
+                        <h4>Intranet Portal Development</h4>
+                        <p>A modernizing intranet portal built on the salient features of a digital experience platform
+                            that
+                            offers effective intranet solutions and assists organizations in efficient execution of
+                            business. Brings along enhanced collaboration and transparency amidst internal teams, a
+                            decrease
+                            in overall costs and better employee efficacy levels.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/dxp/enterprise-content-management.svg"
+                            alt="strategic-consulting" width="48" height="48">
+                        <h4>Enterprise Content Management System</h4>
+                        <p>Unlock the potential of DXP and its features with a multi-faceted content management system
+                            for
+                            your enterprise. High-quality CMS offering streamlined management of content at a unified
+                            location, showcasing benefits like flexibility, personalization, mobile friendliness, and
+                            multi-channel management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="best-services-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="inner-common-title-sec">
+                        <h2>Digital Experience Services in Practice</h2>
+                        <p>Helping you build a complete roadmap to a quicker and more effective Digital Experience for
+                            your
+                            business.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/strategic-consulting.svg"
+                            alt="strategic-consulting" width="48" height="48">
+                        <h4>Strategic Consulting</h4>
+                        <p>Identify gaps in your existing strategies and model a transformation with minimal risk
+                            involved. </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/customer-exp.svg"
+                            alt="Customer Experience &amp; Design" width="48" height="48">
+                        <h4>Customer Experience &amp; Design</h4>
+                        <p>Involve primary and secondary user research in your digital experience for better consumer
+                            interaction.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img src="https://www.tridhyatech.com/frontend/img/icons/tech.svg"
+                            alt="Technology &amp; Engineering" width="48" height="48">
+                        <h4>Technology &amp; Engineering</h4>
+                        <p>Develop a roadmap with technology forecasting and platform evaluation for a better digital
+                            experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="best-services-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="inner-common-title-sec">
+                        <h2>Digital Experience Services in Practice</h2>
+                        <p>Helping you build a complete roadmap to a quicker and more effective Digital Experience for
+                            your
+                            business.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/strategic-consulting.svg"
+                            alt="strategic-consulting" width="48" height="48">
+                        <h4>Strategic Consulting</h4>
+                        <p>Identify gaps in your existing strategies and model a transformation with minimal risk
+                            involved. </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img
+                            src="https://www.tridhyatech.com/frontend/img/icons/customer-exp.svg"
+                            alt="Customer Experience &amp; Design" width="48" height="48">
+                        <h4>Customer Experience &amp; Design</h4>
+                        <p>Involve primary and secondary user research in your digital experience for better consumer
+                            interaction.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="services-more"> <img src="https://www.tridhyatech.com/frontend/img/icons/tech.svg"
+                            alt="Technology &amp; Engineering" width="48" height="48">
+                        <h4>Technology &amp; Engineering</h4>
+                        <p>Develop a roadmap with technology forecasting and platform evaluation for a better digital
+                            experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service-faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tt-title">
+                        <h2>FAQ's</h2>
+                    </div>
+                    <div class="life-acc">
+                        <div class="accordion" id="accordion-e">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading84"> <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse84"
+                                        aria-expanded="false" aria-controls="collapse84"> What are digital experience
+                                        services? </button> </h2>
+                                <div id="collapse84" class="accordion-collapse collapse" aria-labelledby="heading84"
+                                    data-bs-parent="#accordion-e">
+                                    <div class="accordion-body">
+                                        <div class="inner-details">
+                                            <p>Digital experience services refer to a set of solutions and strategies
+                                                aimed at optimizing the user experience across digital channels such as
+                                                websites, mobile apps, social media, and more. These services encompass
+                                                design, content, user interface, user journey, and technical aspects to
+                                                create engaging and seamless interactions for users. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading85"> <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse85"
+                                        aria-expanded="false" aria-controls="collapse85"> Why are digital experience
+                                        important? </button> </h2>
+                                <div id="collapse85" class="accordion-collapse collapse" aria-labelledby="heading85"
+                                    data-bs-parent="#accordion-e">
+                                    <div class="accordion-body">
+                                        <div class="inner-details">
+                                            <p>In today's digital age, users expect intuitive and enjoyable experiences
+                                                when interacting with digital platforms. Digital experience services
+                                                ensure that businesses meet these expectations, leading to higher user
+                                                satisfaction, increased engagement, improved brand loyalty, and
+                                                ultimately, better business outcomes. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading86"> <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse86"
+                                        aria-expanded="false" aria-controls="collapse86"> What components do digital
+                                        experience services cover? </button> </h2>
+                                <div id="collapse86" class="accordion-collapse collapse" aria-labelledby="heading86"
+                                    data-bs-parent="#accordion-e">
+                                    <div class="accordion-body">
+                                        <div class="inner-details">
+                                            <p>Digital experience services cover a range of components, including user
+                                                interface (UI) design, user experience (UX) design, content strategy,
+                                                information architecture, interaction
+                                                design, usability testing, accessibility, and responsive design.
+                                                They can also involve data analysis to optimize user journeys. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading87"> <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse87"
+                                        aria-expanded="false" aria-controls="collapse87"> What is a digital experience
+                                        platform (DXP), and how does it differ from a content management system (CMS)?
+                                    </button> </h2>
+                                <div id="collapse87" class="accordion-collapse collapse" aria-labelledby="heading87"
+                                    data-bs-parent="#accordion-e">
+                                    <div class="accordion-body">
+                                        <div class="inner-details">
+                                            <p>A digital experience platform (DXP) is an integrated suite of tools and
+                                                technologies designed to create, manage, and optimize digital
+                                                experiences across various channels such as websites, mobile apps, and
+                                                social media. Unlike a content management system (CMS), which primarily
+                                                focuses on content creation and publishing, a DXP goes beyond by
+                                                offering features like personalization, customer journey mapping,
+                                                analytics, and e-commerce capabilities, all aimed at providing a
+                                                holistic and engaging user experience. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading88"> <button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse88"
+                                        aria-expanded="false" aria-controls="collapse88"> Who can benefit from digital
+                                        experience services? </button> </h2>
+                                <div id="collapse88" class="accordion-collapse collapse" aria-labelledby="heading88"
+                                    data-bs-parent="#accordion-e">
+                                    <div class="accordion-body">
+                                        <div class="inner-details">
+                                            <p>Any organization or business with an online presence can benefit from
+                                                digital experience services. Whether you're an e-commerce site, a
+                                                corporate website, a mobile app, or even a non-profit organization,
+                                                optimizing the digital experience can lead to improved user engagement,
+                                                conversions, and overall success. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-container">
+                <h3>Transform Your Business With Digital Enterprise Solutions</h3> <a
+                    href="https://www.tridhyatech.com/contact">Contact us</a>
+            </div>
+        </div>
+    </section>
+    <section class="our-offices">
+        <div class="container">
+            <div class="row">
+                <h2>Our Offices</h2>
+                <div class="our-offices-wrapper">
+                    <div class="office-country">
+                        <div class="office-country-name"> <img
+                                src="https://www.tridhyatech.com/frontend/img/office-country/india.svg" alt="INDIA"
+                                width="118" height="67"> <span>AHMEDABAD, INDIA</span> </div>
+                        <div class="office-address">
+                            <p> 401, One World West,
+                                Nr. Ambli T-Junction 200,
+                                S P Ring Road,
+                                Bopal, Ahmedabad,
+                                Gujarat 380058</p>
+                        </div>
+                    </div>
+                    <div class="office-country">
+                        <div class="office-country-name"> <img
+                                src="https://www.tridhyatech.com/frontend/img/office-country/united-kingdom.svg"
+                                alt="UK" width="118" height="67">
+                            <div class="country"> <span>UK</span> </div>
+                        </div>
+                        <div class="office-address">
+                            <p>Kemp House 160 City Road,
+                                London, United Kingdom EC1V
+                                2NX</p>
+                        </div>
+                    </div>
+                    <div class="office-country">
+                        <div class="office-country-name"> <img
+                                src="https://www.tridhyatech.com/frontend/img/office-country/germany.svg" alt="GERMANY"
+                                width="118" height="67"> <span>GERMANY</span> </div>
+                        <div class="office-address">
+                            <p>Nürnberger Str. 46 90579
+                                Langenzenn Deutschland</p>
+                        </div>
+                    </div>
+                    <div class="office-country">
+                        <div class="office-country-name"> <img
+                                src="https://www.tridhyatech.com/frontend/img/office-country/australia.svg"
+                                alt="AUSTRALIA" width="118" height="67"> <span>AUSTRALIA</span> </div>
+                        <div class="office-address">
+                            <p>Level 36 Riparian Plaza, 71
+                                Eagle Street,
+                                Brisbane, QLD 4000</p>
+                        </div>
+                    </div>
+                    <div class="office-country">
+                        <div class="office-country-name"> <img
+                                src="https://www.tridhyatech.com/frontend/img/office-country/united-states-of-america.svg"
+                                alt="USA" width="118" height="67"> <span>USA</span> </div>
+                        <div class="office-address">
+                            <p>4411 Suwanee Dam road,
+                                Bld. 300 Ste. 350
+                                Suwanee GA, 30024 </p>
+                        </div>
+                    </div>
+                    <div class="office-country">
+                        <div class="office-country-name"> <img
+                                src="https://www.tridhyatech.com/frontend/img/office-country/Flag_of_the_South_Africa.svg"
+                                alt="SOUTH AFRICA" width="118" height="67"> <span>SOUTH AFRICA</span> </div>
+                        <div class="office-address">
+                            <p> Cube Work Space,
+                                24 Hans Strijdom Avenue,
+                                Cape Town </p>
+                        </div>
+                    </div>
+                    <div class="office-country">
+                        <div class="office-country-name"> <img
+                                src="https://www.tridhyatech.com/frontend/img/office-country/Flag_of_the_United_Arab_Emirates.svg"
+                                alt="UAE" width="118" height="67"> <span>DUBAI, UAE</span> </div>
+                        <div class="office-address">
+                            <p> B 503 Sama Tower,
+                                Sheikh Zayed Road,
+                                United Arab Emirates </p>
+                        </div>
+                    </div>
+                    <div class="office-country">
+                        <div class="office-country-name"> <img
+                                src="https://www.tridhyatech.com/frontend/img/office-country/canada_flag.svg"
+                                alt="country-flag" width="118" height="67"> <span>CANADA</span> </div>
+                        <div class="office-address">
+                            <p> 34 Applegrove Ct. Brampton ON L6R 2Y8 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5"> <a href="https://www.tridhyatech.com" class="footer-logo"> <img
+                            class="white-logo lozad" data-src="https://www.tridhyatech.com/frontend/img/logo_white.svg"
+                            alt="white-logo" width="274" height="50"
+                            src="https://www.tridhyatech.com/frontend/img/logo_white.svg" data-loaded="true"> </a>
+                    <p class="about-tridhya"> Tridhya Tech is a full-service software development company focused on
+                        delivering solutions for Web &amp; Mobile Applications, AI &amp; IoT to clients globally. We
+                        believe in technological empowerment and provide end-to-end tech solutions to build an effective
+                        digital presence. </p>
+                    <div class="fc-details">
+                        <div class="cell-details"> <a href="tel:+13865971231"><img
+                                    src="https://www.tridhyatech.com/frontend/img/phone-call.svg" width="15" height="15"
+                                    alt="phone">+1 386 597 1231</a> </div> <a class="email"
+                            href="mailto:info@tridhyatech.com"><img
+                                src="https://www.tridhyatech.com/frontend/img/email.svg" width="15" height="15"
+                                alt="email">info@tridhyatech.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-7 ">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-12">
+                            <h3 class="footer-menu-title"> Company </h3>
+                            <ul class="footer-menu">
+                                <li> <a href="https://www.tridhyatech.com/about-us">About us</a> </li>
+                                <li> <a href="https://www.tridhyatech.com/leadership">Leadership</a> </li>
+                                <li> <a href="https://www.tridhyatech.com/our-infrastructure">Infrastructure</a> </li>
+                                <li> <a href="https://www.tridhyatech.com/careers">Career</a> </li>
+                                <li> <a href="https://www.tridhyatech.com/contact">Contact us</a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-12">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h3 class="footer-menu-title"> Services </h3>
+                                </div>
+                                <div class="col-lg-12">
+                                    <ul class="footer-menu">
+                                        <li> <a href="https://www.tridhyatech.com/digital-experience">Digital
+                                                Experience</a> </li>
+                                        <li> <a href="https://www.tridhyatech.com/cloud-services">Cloud Services</a>
+                                        </li>
+                                        <li> <a href="https://www.tridhyatech.com/data-and-analytics">Data and
+                                                Analytics</a> </li>
+                                        <li> <a href="https://www.tridhyatech.com/digital-enterprise">Digital
+                                                Enterprise</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-12">
+                            <h3 class="footer-menu-title"> Industries </h3>
+                            <ul class="footer-menu">
+                                <li> <a href="https://www.tridhyatech.com/insurance">Insurance</a> </li>
+                                <li> <a href="https://www.tridhyatech.com/retail-ecommerce">Retail and eCommerce</a>
+                                </li>
+                                <li> <a href="https://www.tridhyatech.com/transport-and-logistics">Transport and
+                                        Logistics</a> </li>
+                                <li> <a href="https://www.tridhyatech.com/real-estate">Real Estate</a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-12">
+                            <h3 class="footer-menu-title"> insights </h3>
+                            <ul class="footer-menu">
+                                <li> <a href="https://www.tridhyatech.com/blog">Blog</a> </li>
+                                <li> <a href="https://www.tridhyatech.com/case-studies">Case study</a> </li>
+                                <li> <a href="https://www.tridhyatech.com/events">Events</a> </li>
+                                <li> <a href="https://www.tridhyatech.com/news">News</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="sub-footer">
+                    <div class="iso-adobe">
+                        <div class="iso-wrap"> <img src="https://www.tridhyatech.com/frontend/img/iso-logo-tridhya.svg"
+                                alt="logo" width="25" height="21"> <a
+                                href="https://www.iafcertsearch.org/certification/b6AdjvtZ6zAPiczcIel6kfb1"
+                                target="_blank">ISO 9001:2015</a> <a
+                                href="https://www.iafcertsearch.org/certification/b6AdjvtZ6zAPiczcIel6kfb1"
+                                target="_blank">ISO/IEC 27001:2013</a> </div>
+                        <div class="adobe-wrap"> <a
+                                href="https://solutionpartners.adobe.com/s/directory/detail/tridhya+tech+limited"> <img
+                                    class="" src="https://www.tridhyatech.com/frontend/img/adobe-logo.svg"
+                                    alt="Adobe Logo" width="179" height="54"> </a> </div>
+                    </div>
+                    <div class="social-media-wrapper">
+                        <ul class="social-media">
+                            <li> <a href="https://www.linkedin.com/company/tridhya-tech/" rel="nofollow"
+                                    target="_blank"> <img
+                                        src="https://www.tridhyatech.com/frontend/img/icons/social-media/linked-in.svg"
+                                        width="19" height="19" alt="linkdin"> </a> </li>
+                            <li> <a href="https://twitter.com/tridhyaT" rel="nofollow" target="_blank"> <img
+                                        src="https://www.tridhyatech.com/frontend/img/icons/social-media/twitter.svg"
+                                        width="20" height="17" alt="twitter"> </a> </li>
+                            <li> <a href="https://www.instagram.com/tridhyatech/" rel="nofollow" target="_blank"> <img
+                                        src="https://www.tridhyatech.com/frontend/img/icons/social-media/instagram.svg"
+                                        width="19" height="20" alt="instagram"> </a> </li>
+                            <li> <a href="https://www.youtube.com/channel/UCKYPgkkziAYXQePEmjZKVJA" rel="nofollow"
+                                    target="_blank"> <img
+                                        src="https://www.tridhyatech.com/frontend/img/icons/social-media/youtube.svg"
+                                        width="17" height="14" alt="youtube"> </a> </li>
+                            <li> <a href="https://www.facebook.com/TridhyaTech" rel="nofollow" target="_blank"> <img
+                                        src="https://www.tridhyatech.com/frontend/img/icons/social-media/facebook.svg"
+                                        width="10" height="20" alt="facebook"> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
