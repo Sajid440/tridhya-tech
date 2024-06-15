@@ -1,0 +1,2 @@
+# tridhya-tech
+academic project
